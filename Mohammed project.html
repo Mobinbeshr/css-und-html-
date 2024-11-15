@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Webseite</title>
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header, nav, main, footer {
+        margin: 20px;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #ff055f;
+        overflow: hidden;
+    }
+    
+    nav li {
+        float: left;
+    }
+    
+    nav li a {
+        display: block;
+        color: #333;
+        text-align: left;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    nav li a:hover {
+        background-color: #ddd;
+    }
+    .video-container {
+      text-align: center;
+    }  
+    </style>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    
+    <header>
+        <h1>Willkommen auf meiner Webseite</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#start">Startseite</a></li>
+            <li><a href="#about">Über uns</a></li>
+            <li><a href="#services">Dienstleistungen</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+    <article>
+        <div class="video-container">
+        <h1>video</h1>
+        <video loop="true" autostart="true" controls="auto" muted text-align="center" >
+            <source src="wasser.ogv">
+            <source src="wasser.mp4">
+            <p>browser unterstützt kein html5 video!</p>
+        </video>
+    </div>
+
+    </article>
+    <article>
+        <h1>audio</h1>
+        <audio controls>
+            <source src="sojus_kapsel_dlf_20220330.mp3">
+        </audio>
+    </article>
+    <article>
+        <h1>
+        links
+        </h1>
+        <ul>
+            <li><a target="_blank" href="https://ulm.de">link mit target (_blank)</a></li>
+            <li><a target="neu" href="https://bonn.de">link mit immer gleichem target</a></li>
+        </ul>
+    </article>
+    
+    <main>
+        <section id="start">
+            <h2>Startseite</h2>
+            <p>Willkommen auf unserer Webseite. Hier finden Sie alle Informationen, die Sie suchen.</p>
+        </section>
+
+        <section id="about">
+            <h2>Über Mohammed Gmbh</h2>
+            <p>Wir sind ein dynamisches Team,wir sind die grueste teame aud middle east </p>
+        </section>
+
+        <section id="services">
+            <h2>Dienstleistungen</h2>
+            <ul>
+                <li>Service 1</li>
+                <li>Service 2</li>
+                <li>Service 3</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <p>Sie können uns wie folgt erreichen:</p>
+            <address>
+                Email: <a href="E-mail">mohammedbinbeshr811@gmail.com</a><br>
+                Telefon: +491621585581
+            </address>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Meine Webseite. Alle Rechte vorbehalten.</p>
+    </footer>
+
+</body>
+</html>
